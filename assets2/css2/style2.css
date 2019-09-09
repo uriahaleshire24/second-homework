@@ -1,0 +1,98 @@
+/* this is the index/thr about part */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 150%;
+    color: #777777;
+    background: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:
+        url("https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")
+}
+
+p{
+    color: black;
+}
+header{
+    background: darkblue;
+    height: 110px;
+    padding-top: 10px;
+    position: relative;
+}
+h1{
+    float: left;
+    color: rgb(0, 140, 255);
+    background-color: darkblue;
+    padding: 30px;
+    border: solid 5px rgb(0, 140, 255);
+    margin: 0px 30px 30px 30px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+    }
+h2{
+
+    color: black
+
+}
+
+.container {
+width: 1024px;
+margin: 0 auto;
+
+}
+#bio-image, #main-bio, #contact-info{
+    float: left;
+}
+#main-bio {
+    width: 70%;
+    background: rgb(0, 140, 255);
+    margin: 75px 150px;
+}
+#bio-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left : 20px;
+}
+
+a{
+    font-size: 20px;
+    color: black;
+    text-align: center
+    
+
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.btn-outline-primary{
+    float: right;
+    font-weight: 900;
+    margin-right: 10
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+#linkskill{
+    color: darkblue
+}
+
+/* this is the beginning of the contact section */
+
+
+.contactme{
+    float: under;
+}
+#exampleFormControlTextarea1{
+    size: 50%;
+}
