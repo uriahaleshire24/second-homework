@@ -6,44 +6,51 @@
   <meta charset="UTF-8">
   <title>MY FIRST WEB PAGE</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="./assets2/css2/style2.css">
 </head>
 
 <body>
-    <header>
-        <h1><b>Uriah Aleshire</b> </h1> 
-        <a id="contactlink"> <a href="./contact.html"> <button type="button" class="btn btn-outline-primary">contact</button></a>
-        <a id="portfoliolink"> <a href="./portfolio.html type="> <button" class="btn btn-outline-primary">Portfolio</button></a>
-        <a id="aboutlink"> <a href="./index.html <button type="> <button" class="btn btn-outline-primary">about</button></a>
-          </header>
+  <header>
+    <h1><b>Uriah Aleshire</b> </h1> 
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="./index2.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact2.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./portfolio2.html">Portfolio</a>
+        </li>
+        <li class="nav-item"></li>
+      </ul>
+              
+      </header>
     
     <div class="container">
       
     
-        <secion id="contactme">
-            <h2>Contact me</h2> 
-            <hr class="my-4">
-            <form>
-              <div class="form-row">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Enter name">Name
-                </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1"></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Example@gmail.com">Email
-                <small id="emailHelp" class="form-text text-muted"></small>
-              </div>
-              <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-      </secion>
+      <secion id="main-bio" style=" border-radius: 25px;">
+        <h2>Contact me</h2>
+        <hr class="my-4">
 
+    <form action="/action_page.php" style=" text-align: center">
+      First name:<br>
+      <input type="text" name="firstname" value="">
+      <br>
+      Last name:<br>
+      <input type="text" name="lastname" value="">
+      <br><br>
+      Message: <br>
+      <input type="text" value="" style=" margin-bottom: 30px;"> 
+      <input type="submit" value="Submit">
+    </form> 
 
-    </div> 
+  </div> 
+  <footer>
+      ©copyright© 
 
+  </footer>
 
 </body>
 </html>

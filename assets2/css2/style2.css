@@ -7,25 +7,54 @@ body{
     color: #777777;
     background: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image:
-        url("https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80")
+    background-color: rgb(196, 184, 184);
+    text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
 p{
     color: black;
+    margin-left: 20px;
+    margin-right: 20px
 }
 header{
-    background: darkblue;
+    background: white;
     height: 110px;
     padding-top: 10px;
+}
+.icons {
+    width: 300px;
+    height: 300px;
     position: relative;
+    margin: auto;
+    float: left;
+}
+.titles {
+    width: 300px;
+    position: absolute;
+    height: 75px;
+    bottom: 0px;
+    left: 0;
+    background-color: #4aaaa5;
+}
+.images {
+    width: 300px;
+    margin: auto;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 h1{
     float: left;
-    color: rgb(0, 140, 255);
-    background-color: darkblue;
+    color: #4aaaa5;
+    background-color: white;
     padding: 30px;
-    border: solid 5px rgb(0, 140, 255);
+    border: solid 5px #4aaaa5;
     margin: 0px 30px 30px 30px;
     margin-left: 200px;
     margin-bottom: 20px;
@@ -34,7 +63,11 @@ h1{
     }
 h2{
 
-    color: black
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 300px;
+
 
 }
 
@@ -48,8 +81,10 @@ margin: 0 auto;
 }
 #main-bio {
     width: 70%;
-    background: rgb(0, 140, 255);
+    background: white;
     margin: 75px 150px;
+    margin-top: 10px;
+    
 }
 #bio-image {
     width: 150px;
@@ -61,7 +96,10 @@ margin: 0 auto;
 a{
     font-size: 20px;
     color: black;
-    text-align: center
+    text-align: right;
+    float: right;
+    margin-right: 40px;
+
     
 
 }
@@ -87,12 +125,58 @@ li{
     color: darkblue
 }
 
-/* this is the beginning of the contact section */
-
 
 .contactme{
     float: under;
 }
 #exampleFormControlTextarea1{
     size: 50%;
+}
+
+/* img {
+    margin: 15px
+
+} */
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#666666;
+   color: white;
+   text-align: center;
+   height: 50px;
+   font-size: 10px;
+}
+
+#first {
+    position: absolute;
+  bottom: 225px;
+  left: 450px;
+  background-color: #4aaaa5
+}
+
+#second{
+    position: absolute;
+  bottom: 250px;
+  left: 760px;
+  background-color: #4aaaa5
+}
+#third{
+    position: absolute;
+  bottom: 10px;
+  left: 450px;
+  background-color: #4aaaa5
+}
+#forth{
+    position: absolute;
+  bottom: 10px;
+  left: 780px;
+  background-color: #4aaaa5
+}
+#fifth{
+    position: absolute;
+  bottom: -200px;
+  left: 580px;
+  background-color: #4aaaa5
 }
