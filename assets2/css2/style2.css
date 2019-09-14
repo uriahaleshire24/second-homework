@@ -28,6 +28,8 @@ header{
     position: relative;
     margin: 20px auto;
     border: #666666 solid 1px;
+    float: left;
+    margin: 20px
 }
 .titles {
     width: 300px;
