@@ -1,0 +1,212 @@
+/* this is the index/thr about part */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 150%;
+    color: #777777;
+    background: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(196, 184, 184);
+    text-align: center;
+    
+}
+
+/* p{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px
+} */
+header{
+    background: white;
+    height: 110px;
+    padding-top: 10px;
+}
+.icons {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 20px auto;
+    border: #666666 solid 1px;
+    float: left;
+    margin: 20px
+}
+.titles {
+    width: 300px;
+    position: absolute;
+    height: 75px;
+    bottom: 10px;
+    left: 0;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: black;
+    font-size: 26px;
+    line-height: 75px;
+    /* margin-right: 20px; */
+}
+.images {
+    width: 270px;
+    margin: auto;
+    height: 270px;
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+}
+h1{
+    float: left;
+    color: #4aaaa5;
+    background-color: white;
+    padding: 30px;
+    border: solid 5px #4aaaa5;
+    margin: 0px 30px 30px 30px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: left;
+    }
+h2{
+
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 300px;
+
+
+}
+
+.container2 {
+width: 1024px;
+margin: 0 auto;
+
+}
+#bio-image, #main-bio, #contact-info{
+    float: left;
+}
+#main-bio {
+    width: 1024px;
+    max-width: 70%;
+    background: white;
+    margin: 75px 150px;
+    margin-top: 10px;
+    
+}
+#bio-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-left : 20px;
+}
+
+a{
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    float: right;
+    margin-right: 40px;
+
+    
+
+}
+li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.btn-outline-primary{
+    float: right;
+    font-weight: 900;
+    margin-right: 10
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+#linkskill{
+    color: darkblue
+}
+
+
+.contactme{
+    float: under;
+}
+#exampleFormControlTextarea1{
+    size: 50%;
+}
+
+/* img {
+    margin: 15px
+
+} */
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#666666;
+   color: white;
+   text-align: center;
+   height: 50px;
+   font-size: 10px;
+}
+
+/* #first {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    
+}
+
+#second{
+    width: 100%;
+  float: left;
+  padding: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+#third{
+    width: 100%;
+    float: left;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+#forth{
+    width: 100%;
+    float: left;
+    padding: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+#fifth{
+    width: 100%;
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+} */
+@media screen and (max-width: 550px) {
+    body {
+        width: 100%;
+    }
+    .container2 {
+        width: 100vw;
+    }
+    #main-bio {
+        width: 90vw;
+    }
+    .icons {
+        width: 90vw;
+        max-width: 320px;
+        height: 90vw;
+        max-height: 320px;
+    ;
+    }
+    
+   
+}
